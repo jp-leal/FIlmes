@@ -1,0 +1,14 @@
+/Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/bin/Debug/net8.0/FIlmes
+/Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/bin/Debug/net8.0/FIlmes.deps.json
+/Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/bin/Debug/net8.0/FIlmes.runtimeconfig.json
+/Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/bin/Debug/net8.0/FIlmes.dll
+/Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/bin/Debug/net8.0/FIlmes.pdb
+/Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/obj/Debug/net8.0/FIlmes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/obj/Debug/net8.0/FIlmes.AssemblyInfoInputs.cache
+/Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/obj/Debug/net8.0/FIlmes.AssemblyInfo.cs
+/Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/obj/Debug/net8.0/FIlmes.csproj.CoreCompileInputs.cache
+/Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/obj/Debug/net8.0/FIlmes.dll
+/Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/obj/Debug/net8.0/refint/FIlmes.dll
+/Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/obj/Debug/net8.0/FIlmes.pdb
+/Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/obj/Debug/net8.0/FIlmes.genruntimeconfig.cache
+/Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/obj/Debug/net8.0/ref/FIlmes.dll
