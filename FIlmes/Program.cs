@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 
-var filmes = new List<string>();
+var filmes = new List<Filme>();
 
 while(true) {
     Console.WriteLine("MENU PRINCIPAL");
@@ -15,7 +15,17 @@ switch(opcao) {
     case "1":
     Console.WriteLine("Digite o nome do filme.");
     var nomeFilme = Console.ReadLine();
-    filmes.Add(nomeFilme);
+Console.WriteLine("Digita a nota do filme (0-10):");
+var nota = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("Digite o genero do filme.");
+    var genero = Console.ReadLine();
+        Console.WriteLine("Digite o pais do filme.");
+    var pais = Console.ReadLine();
+        Console.WriteLine("Digite o idioma do filme.");
+    var idioma = Console.ReadLine();
+        Console.WriteLine("Digite o ano do filme.");
+    var ano = Convert.ToInt32(Console.ReadLine());
+    filmes.Add(new Filme(nomeFilme, nota, genero, idioma, pais, ano));
     Console.WriteLine("Filme cadastrado com sucesso.");
     break;
     case "2":
@@ -26,8 +36,9 @@ switch(opcao) {
     case "3":
     Console.WriteLine("Digite o nome do filme.");
     var filmeRemover = Console.ReadLine();
-    var sucesso = filmes.Remove(filmeRemover); 
-    if(sucesso) {
+   var filmeEncontrado = filmes.Find(filme => filme.nome == filmeRemover);
+   if (filmeEncontrado != null)
+  {
         Console.WriteLine("Filme removido com sucesso.");
     } else {
         Console.WriteLine("Filme nao encontrado.");
@@ -45,4 +56,25 @@ switch(opcao) {
 }
 
 
-Console.WriteLine("Hello, World!");
+class Filme {
+    public string nome {get; }
+    public double nota {get; }
+    public string genero {get; }
+    public string idioma {get; }
+    public string pais {get; }
+    public int ano {get; }
+
+    public Filme (string nome, double nota, string genero, string idioma, string pais, int ano) {
+        this.nome = nome;
+        this.nota = nota;
+        this.genero = genero;
+        this.idioma = idioma;
+        this.pais = pais;
+        this.ano = ano;
+    }
+
+    public override string ToString()
+    {
+        return $"{nome} - Nota: {nota}, Gênero: {genero}, País: {pais}, Idioma: {idioma}, Ano de Lançamento: {ano}";
+    }
+}

@@ -12,3 +12,4 @@
 /Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/obj/Debug/net8.0/FIlmes.pdb
 /Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/obj/Debug/net8.0/FIlmes.genruntimeconfig.cache
 /Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/obj/Debug/net8.0/ref/FIlmes.dll
+/Users/joaoleal/Documents/CSharp/FIlmes/FIlmes/obj/Debug/net8.0/FIlmes.sourcelink.json
